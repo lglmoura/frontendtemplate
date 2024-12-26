@@ -15,7 +15,7 @@ const compat = new FlatCompat({
   baseDirectory: __dirname
 })
 /** @type {import('eslint').Linter.Config[]} */
-
+// eslint-disable-next-line import/no-anonymous-default-export
 export default [
   {
     files: ['**/*.{js,cjs,ts,jsx,tsx}'],
