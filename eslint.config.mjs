@@ -59,6 +59,6 @@ export default [
     'next/core-web-vitals',
     'next/typescript',
     'prettier',
-    //'plugin:storybook/recommended'
+    'plugin:storybook/recommended'
   )
 ]
