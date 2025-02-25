@@ -1,4 +1,4 @@
-import * as mainS from '@/_components/Main/styles/styles'
+import * as mainS from '@app/_components/Main/styles/styles'
 
 const Main = ({
   title = 'React Avançado',
