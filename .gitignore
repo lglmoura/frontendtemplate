@@ -42,3 +42,7 @@ next-env.d.ts
 *snap*
 
 *storybook.log
+yarn.lock
+package-lock.json
+package-lock.json
+pnpm-lock.json
