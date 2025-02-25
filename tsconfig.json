@@ -21,8 +21,9 @@
     "paths": {
       "@/*": ["./src/*"],
       "@app/*": ["./src/app/*"],
+      "@jumbo/*": ["./src/@jumbo/*"]
     },
-    "typeRoots": ["./node_modules/@types"]
+    "typeRoots": ["./node_modules/@types", "./src/@jumbo/types"]
   },
   "include": [".jest/setup.ts","next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "**/*.d.ts",
   "next.config.js"
