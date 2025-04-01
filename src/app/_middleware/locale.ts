@@ -4,7 +4,7 @@ import { activeLocale } from '../../middleware'
 
 let headers = { 'accept-language': 'en-US,en;q=0.5' }
 let languages = new Negotiator({ headers }).languages()
-let locales = ['en-US', 'ar-SA', 'es-ES', 'fr-FR', 'it-IT', 'zh-CN', 'br-BR']
+let locales = ['en-US', 'ar-SA', 'es-ES', 'fr-FR', 'it-IT', 'zh-CN', 'pt-BR']
 let defaultLocale = 'en-US'
 
 export function pathnameHasLocale(pathname: string, activeLocale: string) {
