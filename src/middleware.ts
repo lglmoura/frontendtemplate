@@ -7,7 +7,7 @@ import { NextRequest, NextResponse } from 'next/server'
 
 let headers = { 'accept-language': 'en-US,en;q=0.5' }
 let languages = new Negotiator({ headers }).languages()
-let locales = ['en-US', 'ar-SA', 'es-ES', 'fr-FR', 'it-IT', 'zh-CN']
+let locales = ['en-US', 'ar-SA', 'es-ES', 'fr-FR', 'it-IT', 'zh-CN', 'br-BR']
 let defaultLocale = 'en-US'
 
 match(languages, locales, defaultLocale)
